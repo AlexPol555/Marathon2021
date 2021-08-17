@@ -294,6 +294,7 @@ h2 {
 }
 
 .main-flovers {
+   margin-top: 80px;
    &__cards {
       display: flex;
       justify-content: space-between;
@@ -334,5 +335,41 @@ h2 {
    }
    &__text-white {
       color: white;
+   }
+}
+
+.main-order {
+   margin-top: 80px;
+   display: flex;
+   background: #ae7c78;
+   &__notice {
+      flex: 0 0 auto;
+      width: 50%;
+   }
+   img {
+      flex: 0 0 auto;
+      width: 50%;
+   }
+   &__notice {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   }
+
+   h1 {
+      font-family: "Playfair Display", serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 44px;
+      line-height: 59px;
+      letter-spacing: 0.02em;
+      color: #ffffff;
+   }
+   p {
+      margin-top: 24px;
+      color: #ffffff;
+   }
+   &__wrapper {
+      width: 390px;
    }
 }

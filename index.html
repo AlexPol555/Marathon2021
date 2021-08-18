@@ -6,6 +6,7 @@
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <link rel="stylesheet" href="css/clean.css">
+   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
    <link rel="stylesheet" href="css/style.css">
    <link rel="preconnect" href="https://fonts.googleapis.com">
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,6 +18,7 @@
    <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap"
       rel="stylesheet">
+
    <title>Marathon2021</title>
 </head>
 
@@ -109,36 +111,92 @@
    </header>
    <main>
 
-      <div class="main-popular">
+      </div>
+
+
+
+      <div class="main-popular swiper-container">
          <h2>Популярные букеты</h2>
-         <div class="main-popular__blok">
-
-            <div class="main-popular__info">
-               <span>Букет «Нежность»</span>
-               <P>Элегантный букет, который станет отличным подарком на день рождения или юбилей.</P>
-               <span>30 × 40 см</span>
-               <span>3600 руб.</span>
-               <button class="main-popular__button button">
-                  Заказать
-               </button>
+         <div class="main-popular__blok swiper-wrapper">
+            <div class="swiper-slide">
+               <div class="main-popular__info">
+                  <span>Букет «Нежность»</span>
+                  <P>Элегантный букет, который станет отличным подарком на день рождения или юбилей.</P>
+                  <span>30 × 40 см</span>
+                  <span>3600 руб.</span>
+                  <button class="main-popular__button button">
+                     Заказать
+                  </button>
+               </div>
+               <img src="images/popflovers.png" alt="" class="main-popular__img">
             </div>
-            <img src="images/popflovers.png" alt="" class="main-popular__img">
+
+            <div class="swiper-slide">
+               <div class="main-popular__info">
+                  <span>Букет «Нежность»</span>
+                  <P>Элегантный букет, который станет отличным подарком на день рождения или юбилей.</P>
+                  <span>30 × 40 см</span>
+                  <span>3600 руб.</span>
+                  <button class="main-popular__button button">
+                     Заказать
+                  </button>
+               </div>
+               <img src="images/popflovers.png" alt="" class="main-popular__img">
+            </div>
+
+            <div class="swiper-slide">
+               <div class="main-popular__info">
+                  <span>Букет «Нежность»</span>
+                  <P>Элегантный букет, который станет отличным подарком на день рождения или юбилей.</P>
+                  <span>30 × 40 см</span>
+                  <span>3600 руб.</span>
+                  <button class="main-popular__button button">
+                     Заказать
+                  </button>
+               </div>
+               <img src="images/popflovers.png" alt="" class="main-popular__img">
+            </div>
+            <div class="swiper-slide">
+               <div class="main-popular__info">
+                  <span>Букет «Нежность»</span>
+                  <P>Элегантный букет, который станет отличным подарком на день рождения или юбилей.</P>
+                  <span>30 × 40 см</span>
+                  <span>3600 руб.</span>
+                  <button class="main-popular__button button">
+                     Заказать
+                  </button>
+               </div>
+               <img src="images/popflovers.png" alt="" class="main-popular__img">
+            </div>
+
 
 
          </div>
+
+
+
+
+
          <div class="main-popular__svg">
-            <svg width="51" height="16" viewBox="0 0 51 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-               <path
-                  d="M0.292892 8.70711C-0.0976295 8.31658 -0.0976295 7.68342 0.292892 7.29289L6.65685 0.928932C7.04738 0.538408 7.68054 0.538408 8.07107 0.928932C8.46159 1.31946 8.46159 1.95262 8.07107 2.34315L2.41422 8L8.07107 13.6569C8.46159 14.0474 8.46159 14.6805 8.07107 15.0711C7.68054 15.4616 7.04738 15.4616 6.65685 15.0711L0.292892 8.70711ZM51 9H1V7H51V9Z"
-                  fill="#AE7C78" />
-            </svg>
 
-            <svg width="51" height="16" viewBox="0 0 51 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-               <path
-                  d="M50.7071 8.70711C51.0976 8.31658 51.0976 7.68342 50.7071 7.29289L44.3431 0.928932C43.9526 0.538408 43.3195 0.538408 42.9289 0.928932C42.5384 1.31946 42.5384 1.95262 42.9289 2.34315L48.5858 8L42.9289 13.6569C42.5384 14.0474 42.5384 14.6805 42.9289 15.0711C43.3195 15.4616 43.9526 15.4616 44.3431 15.0711L50.7071 8.70711ZM0 9H50V7H0V9Z"
-                  fill="#AE7C78" />
-            </svg>
+            <div class="swiper-button-prev"> <svg width="51" height="16" viewBox="0 0 51 16" fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path
+                     d="M0.292892 8.70711C-0.0976295 8.31658 -0.0976295 7.68342 0.292892 7.29289L6.65685 0.928932C7.04738 0.538408 7.68054 0.538408 8.07107 0.928932C8.46159 1.31946 8.46159 1.95262 8.07107 2.34315L2.41422 8L8.07107 13.6569C8.46159 14.0474 8.46159 14.6805 8.07107 15.0711C7.68054 15.4616 7.04738 15.4616 6.65685 15.0711L0.292892 8.70711ZM51 9H1V7H51V9Z"
+                     fill="#AE7C78" />
+               </svg></div>
+            <div class="swiper-button-next"><svg width="51" height="16" viewBox="0 0 51 16" fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path
+                     d="M50.7071 8.70711C51.0976 8.31658 51.0976 7.68342 50.7071 7.29289L44.3431 0.928932C43.9526 0.538408 43.3195 0.538408 42.9289 0.928932C42.5384 1.31946 42.5384 1.95262 42.9289 2.34315L48.5858 8L42.9289 13.6569C42.5384 14.0474 42.5384 14.6805 42.9289 15.0711C43.3195 15.4616 43.9526 15.4616 44.3431 15.0711L50.7071 8.70711ZM0 9H50V7H0V9Z"
+                     fill="#AE7C78" />
+               </svg></div>
+
+
+
          </div>
+
+
       </div>
 
       <div class="main-flovers container">
@@ -147,7 +205,7 @@
             <div class="main-flovers__item">
                <img class="main-flovers__img" src="images/floversitem1.png" alt="Flivers">
                <div class="main-flovers__diskrip">
-                  <h2 class="main-flovers__h2">Свадебные букеты</h2>
+                  <h2 class="main-flovers__h2 text-white">Свадебные букеты</h2>
                   <span class="main-flovers__text-white text-mont">Букеты для невест</span>
                </div>
 
@@ -156,7 +214,7 @@
             <div class="main-flovers__item">
                <img class="main-flovers__img" src="images/floversitem2.png" alt="Flivers">
                <div class="main-flovers__diskrip">
-                  <h2 class="main-flovers__h2">Свадебные букеты</h2>
+                  <h2 class="main-flovers__h2 text-white">Свадебные букеты</h2>
                   <span class="main-flovers__text-white text-mont">Букеты для невест</span>
                </div>
 
@@ -165,36 +223,175 @@
             <div class="main-flovers__item">
                <img class="main-flovers__img" src="images/floversitem3.png" alt="Flivers">
                <div class="main-flovers__diskrip">
-                  <h2 class="main-flovers__h2">Свадебные букеты</h2>
+                  <h2 class="main-flovers__h2 text-white">Свадебные букеты</h2>
                   <span class="main-flovers__text-white text-mont">Букеты для невест</span>
                </div>
 
 
             </div>
          </div>
-      </div>
 
-      <div class="main-order container">
-         <div class="main-order__notice">
-            <div class="main-order__wrapper">
-               <h1>Скидка 10% на первый заказ</h1>
-               <p class="text-mont">
-                  Если заказываете у нас букет впервые — при оформлении заказа введите промокод «Botanika2021» и
-                  получите
-                  скидку 10%.
-               </p>
+
+         <div class="main-order container">
+            <div class="main-order__notice">
+               <div class="main-order__wrapper">
+                  <h1>Скидка 10% на первый заказ</h1>
+                  <p class="text-mont">
+                     Если заказываете у нас букет впервые — при оформлении заказа введите промокод «Botanika2021» и
+                     получите
+                     скидку 10%.
+                  </p>
+               </div>
+            </div>
+            <img src="images/discount.png" alt="Img">
+         </div>
+
+         <div class="main-work container">
+            <h2>4 шага к идеальному букету</h2>
+            <div class="main-work__wrapper">
+               <div class="main-work__item">
+
+                  <img src="images/svg/order.svg" alt="Order" class="main-work__img">
+                  <span class="text-mont mt-8">Заказ</span>
+                  <p class="text-mont mt-8">Выберите понравившийся букет из каталога и оформите заказ</p>
+               </div>
+               <div class="main-work__item">
+
+                  <img src="images/svg/face.svg" alt="Order" class="main-work__img">
+                  <span class="text-mont mt-8">Уточнение деталей</span>
+                  <p class="text-mont mt-8">Наш флорист позвонит вам после оформления заказа, чтобы уточнить детали</p>
+               </div>
+               <div class="main-work__item">
+
+                  <img src="images/svg/card.svg" alt="Order" class="main-work__img">
+                  <span class="text-mont mt-8">Оплата</span>
+                  <p class="text-mont mt-8">Оплатить заказ можно онлайн
+                     на сайте или при получении</p>
+               </div>
+               <div class="main-work__item">
+
+                  <img src="images/svg/car.svg" alt="Order" class="main-work__img">
+                  <span class="text-mont mt-8">Доставка</span>
+                  <p class="text-mont mt-8">Курьер позвонит за час до прибытия и доставит заказ вовремя</p>
+               </div>
+
+            </div>
+
+
+         </div>
+
+         <div class="main-news container mt-80">
+
+            <div class="main-news__item-text">
+               <h2 class="mt-80">Следите за нашими новостями</h2>
+
+               <p class="text-mont mt-40">Подписывайтесь на наши соцсети и узнавайте
+                  о новинках и акциях первым.</p>
+               <div class="icons mt-40">
+                  <img src="images/svg/instagram_icon.svg" alt="">
+                  <img src="images/svg/facebook_icon.svg" alt="">
+                  <img src="images/svg/twitter_icon.svg" alt="">
+               </div>
+
+            </div>
+            <div class="main-news__item"></div>
+            <div class="main-news__images">
+               <div class="main-news__image">
+                  <img src="images/newsimg1.png" alt="">
+                  <img src="images/newsimg2.png" alt="">
+               </div>
+
+               <img src="images/newsimg3.png" alt="">
+            </div>
+
+         </div>
+
+         <div class="report container mt-80">
+            <h2 class="mt-40">Отзывы</h2>
+            <div class="report__people mt-40">
+               <div class="report__wraper">
+                  <p class="text-mont">Всё очень понравилось! Быстрое оформление заказа, выбор удобного времени
+                     доставки.
+                     Всем большое спасибо!</p>
+                  <span class="block mt-15 text-mont">Марина</span>
+               </div>
+               <div class="report__wraper">
+                  <p class="text-mont">Внимательные флористы, вежливые. Магазин находится прям рядом с метро. Букет
+                     очень понравился, буду ещё заказывать!</p>
+                  <span class="block mt-15 text-mont">Татьяна</span>
+               </div>
+               <div class="report__wraper">
+                  <p class="text-mont">Выбор букетов на любой вкус
+                     и цену. Бывают хорошие скидки,
+                     а флористы всегда помогут и точно соберут красивый букет!</p>
+                  <span class="block mt-15 text-mont">Ольга</span>
+               </div>
+
+            </div>
+
+         </div>
+         <div class="main-address">
+            <iframe class="main-address__map"
+               src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3774.617649833886!2d37.64091591726927!3d55.76890561127064!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sru!4v1629279594648!5m2!1sru!2sru"
+               width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            <div class="main-address__wait">
+               <div class="main-address__wrapper">
+                  <h2 class="mt-40">Мы ждем Вас</h2>
+                  <span class="text-mont mt-40 block">Приходите к нам</span>
+                  <p class="text-mont mt-20">Санкт-Петербург,
+                     ул. Большая Конюшенная, 19</p>
+                  <span class="text-mont block mt-30">Режим работы:</span>
+                  <span class="text-mont block mt-15">Пн-Вск, с 9-00 до 20-00</span>
+                  <span class="text-mont block mt-30">Позвоните нам:</span>
+                  <span class="text-mont block mt-15">+ 7 (812) 983-47-19</span>
+                  <span class="text-mont block mt-30">Напишите нам:</span>
+                  <span class="text-mont block mt-15">info@botanika.ru</span>
+               </div>
             </div>
          </div>
-         <img src="images/discount.png" alt="Img">
-      </div>
-      <div class="main-order__dfkjdkfj"></div>
-
-
 
    </main>
-   <footer>
 
+   <footer>
+      <div class="footer">
+         <div class="footer__wrapper container">
+            <ul class="footer__list text-mont text-white">
+               <a href="#">
+                  <li><img src="images/svg/logow.svg" alt=""></li>
+               </a>
+               <a href="#">
+                  <li>Каталог</li>
+               </a>
+               <a href="#">
+                  <li>Доставка и оплата</li>
+               </a>
+               <a href="#">
+                  <li>Отзывы</li>
+               </a>
+               <a href="#">
+                  <li>Спецпредложения</li>
+               </a>
+               <a href="#">
+                  <li>Контакты</li>
+               </a>
+               <a href="#">
+                  <li>
+               </a>
+               <div class="icons">
+                  <img src="images/svg/instagramW.svg" alt="">
+                  <img src="images/svg/facebookW.svg" alt="">
+                  <img src="images/svg/twitterW.svg" alt="">
+               </div>
+               </li>
+            </ul>
+         </div>
+
+      </div>
    </footer>
+
+   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+   <script src="js/swiper.js"></script>
+
 </body>
 
 </html>

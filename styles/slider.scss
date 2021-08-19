@@ -1,0 +1,35 @@
+.swiper-slide {
+   display: flex;
+}
+.swiper-button-prev,
+.swiper-button-next {
+   position: relative;
+}
+.main-popular {
+   margin-top: 80px;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+
+   &__blok {
+      display: flex;
+      margin-top: 60px;
+   }
+
+   &__button {
+      padding: 30px 105px;
+   }
+
+   &__img {
+      margin-left: 20px;
+      transform: translateY(-20px);
+   }
+
+   &__slider-button {
+      display: flex;
+      margin-top: 20px;
+      justify-content: space-between;
+      width: 120px;
+      margin: 0 auto;
+   }
+}

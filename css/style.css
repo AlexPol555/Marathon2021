@@ -91,6 +91,16 @@ li:hover {
   transition: 0.3s;
 }
 
+.socials {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100px;
+}
+
 .swiper-container {
   width: 800px;
 }
@@ -495,16 +505,6 @@ li:hover {
 
 .main-news h2 {
   text-align: left;
-}
-
-.socials {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  width: 100px;
 }
 
 .report {

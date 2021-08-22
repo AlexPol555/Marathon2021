@@ -87,9 +87,16 @@ li:hover {
    transition: 0.3s;
 }
 
+.socials {
+   display: flex;
+   justify-content: space-between;
+   width: 100px;
+}
+
 .swiper-container {
    width: 800px;
 }
+
 .ml {
    &-20 {
       margin-left: 20px;
@@ -393,11 +400,6 @@ li:hover {
    }
 }
 
-.socials {
-   display: flex;
-   justify-content: space-between;
-   width: 100px;
-}
 .report {
    border: 1px solid #ae7c78;
    box-sizing: border-box;

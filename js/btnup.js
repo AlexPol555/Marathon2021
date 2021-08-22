@@ -1,9 +1,10 @@
 (function () {
    'use strict';
+   var goTopBtn = document.querySelector('.backto-top');
 
    function trackScroll() {
-      var scrolled = window.pageYOffset;
-      var coords = document.documentElement.clientHeight;
+      let scrolled = window.pageYOffset;
+      let coords = document.documentElement.clientHeight;
 
       if (scrolled > coords) {
          goTopBtn.classList.add('backto-top-show');
@@ -19,9 +20,6 @@
          setTimeout(backToTop, 0);
       }
    }
-
-   var goTopBtn = document.querySelector('.backto-top');
-
    window.addEventListener('scroll', trackScroll);
    goTopBtn.addEventListener('click', backToTop);
 })();

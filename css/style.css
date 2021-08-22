@@ -531,6 +531,7 @@ li:hover {
 }
 
 .footer {
+  padding-bottom: 20px;
   background-color: #ae7c78;
 }
 
@@ -552,5 +553,10 @@ li:hover {
 
 .footer a {
   text-decoration: none;
+  color: white;
+}
+
+.footer__time {
+  text-align: center;
   color: white;
 }

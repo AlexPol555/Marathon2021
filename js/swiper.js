@@ -12,7 +12,6 @@
 //       el: '.swiper-scrollbar',
 //    },
 // });
-
 const swiper = new Swiper('.swiper-container', {
    effect: 'flip',
    loop: true,

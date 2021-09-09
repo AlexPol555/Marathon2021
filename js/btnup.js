@@ -22,4 +22,11 @@
    }
    window.addEventListener('scroll', trackScroll);
    goTopBtn.addEventListener('click', backToTop);
+
+   let timeBlock = document.querySelector(".footer__time");
+
+   let time = moment();
+
+   timeBlock.innerHTML = 'Сегодня ' + time.lang('ru').format('DD MMMM YYYY');
+
 })();

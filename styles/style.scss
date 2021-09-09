@@ -434,7 +434,8 @@ li:hover {
       color: white;
    }
    &__time {
-      text-align: center;
       color: white;
+      text-align: center;
+      display: block;
    }
 }

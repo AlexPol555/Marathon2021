@@ -557,6 +557,7 @@ li:hover {
 }
 
 .footer__time {
-  text-align: center;
   color: white;
+  text-align: center;
+  display: block;
 }

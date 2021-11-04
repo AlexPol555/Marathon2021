@@ -19,6 +19,7 @@ button {
 .container {
    max-width: 1200px;
    margin: 0px auto;
+   padding: 0 20px;
 }
 
 h2 {
@@ -146,15 +147,20 @@ li:hover {
    padding: 16px 120px;
    margin-top: 26px;
 
-   &__list {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-   }
+   // &__list {
+   //    display: flex;
+   //    align-items: center;
+   //    justify-content: space-between;
+   // }
 
    &__link {
       color: #ae7c78;
       text-decoration: none;
+   }
+   &__list {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
    }
 
    &__logo {
@@ -173,14 +179,13 @@ li:hover {
    &__item {
       width: 385px;
       margin-left: 20px;
-      &_shift {
-         transform: translateY(40px);
-      }
-      &:nth-child(1) {
-         margin-left: 0px;
-      }
    }
-
+   &__item-shift {
+      transform: translateY(40px);
+   }
+   &__item-shift:nth-child(1) {
+      margin-left: 0px;
+   }
    &__title {
       font-family: "Playfair Display", serif;
       font-weight: 400;
@@ -266,7 +271,7 @@ li:hover {
 
    &__item {
       position: relative;
-      width: 387px;
+      max-width: 380px;
       cursor: pointer;
       &::after {
          content: "";
@@ -292,7 +297,7 @@ li:hover {
    }
    &__description {
       position: absolute;
-      top: 50%;
+      top: 40%;
       left: 50%;
       transform: translateX(-50%);
       text-align: center;

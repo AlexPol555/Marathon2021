@@ -38,8 +38,6 @@
 
 .main-popular__img {
   margin-left: 20px;
-  -webkit-transform: translateY(-20px);
-          transform: translateY(-20px);
 }
 
 .main-popular__slider-button {

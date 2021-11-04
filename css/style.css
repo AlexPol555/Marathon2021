@@ -19,6 +19,7 @@ button {
 .container {
   max-width: 1200px;
   margin: 0px auto;
+  padding: 0 20px;
 }
 
 h2 {
@@ -160,21 +161,21 @@ li:hover {
   margin-top: 26px;
 }
 
+.navbar__link {
+  color: #ae7c78;
+  text-decoration: none;
+}
+
 .navbar__list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-}
-
-.navbar__link {
-  color: #ae7c78;
-  text-decoration: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .navbar__logo {
@@ -201,12 +202,12 @@ li:hover {
   margin-left: 20px;
 }
 
-.header-promo__item_shift {
+.header-promo__item-shift {
   -webkit-transform: translateY(40px);
           transform: translateY(40px);
 }
 
-.header-promo__item:nth-child(1) {
+.header-promo__item-shift:nth-child(1) {
   margin-left: 0px;
 }
 
@@ -316,7 +317,7 @@ li:hover {
 
 .main-flowers__item {
   position: relative;
-  width: 387px;
+  max-width: 380px;
   cursor: pointer;
 }
 
@@ -346,7 +347,7 @@ li:hover {
 
 .main-flowers__description {
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 50%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
